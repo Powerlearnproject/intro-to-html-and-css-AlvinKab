@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="Kshs.20 stock image.jpeg">
+    <title>Edit Expense</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="login.html">Log in</a>
+            <a href="register.html">Sign up</a>
+            <a href="view_expense.html">View expenses</a>
+            <a href="add_expense.html">Add expense</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <form action="/submit" method="get">
+                <fieldset>
+                    <legend>Edit expense</legend>
+                    <label for="amount">Amount</label>
+                    <br>
+                    <input type="number" id="amount" name="amount">
+                    <br>
+                    <label for="date">Date</label>
+                    <br>
+                    <input type="date" id="date" name="date">
+                    <br>
+                    <label for="category">Category</label>
+                    <br>
+                    <input type="text" id="category" name="category" list="category_list">
+                    <datalist id="category_list">
+                        <option value="Groceries">
+                        <option value="Transportation">
+                        <option value="Entertainment">
+                        <option value="Other">
+                    </datalist>
+                    <br>
+                    <button type="submit">EDIT EXPENSE</button>
+                </fieldset>
+            </form>
+        </section>
+        <div class="back-to-top-container">
+            <a href="#" class="back-to-top-link">
+                <button>BACK TO TOP</button>
+            </a>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; AlvinKab, 2024</p>
+    </footer>
+</body>
+</html>
