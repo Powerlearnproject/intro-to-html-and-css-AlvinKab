@@ -352,7 +352,7 @@ th {
     }
 }
 
-/* WARNING! LONG KEYFRAME AHEAD. ENDS AT LINE 408*/
+/* WARNING! LONG KEYFRAME AHEAD. ENDS AT LINE 662*/
 @media only screen and (min-width: 1025px) {
     @keyframes sides {
         0% {
@@ -711,7 +711,8 @@ th {
             background-color: #0b0b24;
         }
     }
-
+    
+    /* WARNING! LONG KEYFRAME AHEAD. ENDS AT LINE 1022*/
     @media only screen and (min-width: 1025px) {
         @keyframes sides {
             0% {
